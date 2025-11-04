@@ -97,7 +97,7 @@ def mask_detection():
     local_css("css/styles.css")
     st.markdown('<h1 align="center">😷 Face Mask Detection</h1>', unsafe_allow_html=True)
     activities = ["Image", "Webcam"]
-    st.set_option('deprecation.showfileUploaderEncoding', False)
+    #st.set_option('deprecation.showfileUploaderEncoding', False)
     st.sidebar.markdown("# Mask Detection on?")
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
 
